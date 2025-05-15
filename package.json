@@ -1,0 +1,24 @@
+{
+  "name": "telegram-chatgpt-bot",
+  "version": "1.0.0",
+  "description": "ChatGPT Telegram Bot for Vercel",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "^13.4.19",
+    "openai": "^4.0.0",
+    "telegraf": "^4.12.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.5.1",
+    "@types/react": "^18.2.20",
+    "typescript": "^5.1.6"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
